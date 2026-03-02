@@ -13,7 +13,6 @@ header {
 
 .search-container {
     margin: 20px 0;
-    text-align: center;
 }
 
 input {
@@ -28,8 +27,8 @@ button {
 
 .country-card {
     width: 300px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-left: 42%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
     
 }
 
@@ -39,17 +38,14 @@ button {
 }
 
 .border-grid {
-    display: grid; 
+    display: flex; 
     gap: 10px;
     padding: 10px;
-    max-width: 800px;
-    margin: auto;
+    max-width: fit-content;
 }
 
 .border-country {
     background: white;
-    border-radius: 6px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .border-country img {
