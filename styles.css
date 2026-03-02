@@ -30,12 +30,7 @@ button {
     width: 300px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-left: 42%;
-    /* background: white;
-    padding: 1.5rem;
-    margin: 1rem auto;
-    width: 300px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
+    
 }
 
 .country-card img {
@@ -44,7 +39,7 @@ button {
 }
 
 .border-grid {
-    display: grid; /* Required */
+    display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 10px;
     padding: 10px;
